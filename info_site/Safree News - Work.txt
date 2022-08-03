@@ -1,0 +1,11 @@
+Colors:
+#d4d4dd
+#05053b
+#848499
+#666683
+#7c7c94
+#3c3c64
+#D0AC6C
+
+Fonte:
+Montserrat
