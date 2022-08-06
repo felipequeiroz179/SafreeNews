@@ -19,7 +19,7 @@ body{
 ::-webkit-scrollbar-thumb{
     background-color: #001C40;
 }
-/*header/footer config*/
+/*header config*/
 .menu {
     height: 10vh;
     width: 100%;
@@ -33,12 +33,6 @@ body{
     display: flex;
     width: 95%;
     justify-content: space-between;
-    align-items: center;
-}
-.menu_container_footer {
-    display: flex;
-    width: 95%;
-    justify-content: center;
     align-items: center;
 }
 
@@ -57,24 +51,24 @@ body{
 
 .menu_item{
     font-size: 20px;
-    color: #D0AC6C;
+    color: #C8AA69;
     text-decoration: none;
 }
 
 /*main banner config*/
 .mainBanner {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 60vh;
+    justify-content: center;
+    align-items: center;
 
 }
 #mainBannerImage {
     width: 80%;
     height: 80%;
-    background-color: #FFF;
     margin-top: 7vh;
+    background-color: #FFF;
 }
 
 /* newsBanner config */
@@ -84,13 +78,12 @@ body{
     background-color: #FFF;
 }
 #newsCardContainer {
+    display: flex;
     width: 30%;
     height: 70%;
     margin-left: 10%;
-    background-color: #FFF;
-    display: flex;
     justify-content: space-around;
-    /* height: 50vh; */
+    background-color: #FFF;
 }
 .card {
     display: flex;
@@ -110,30 +103,101 @@ body{
     padding: 2vh;
 }
 
-/* News Container Group config */
+/* News container group config */
 #newsContainerGroup {
+    display: flex;
     width: 100%;
     height: 90vh;
-    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 .containerGroup {
-    background-color: #FFF;
+    display: flex;
     width: 80%;
     height: 30%;
     margin: 2vh;
     align-items: center;
-    display: flex;
+    background-color: #FFF;
 }
 .containerGroupImage {
-    background-color: #B1B1B1;
     width: 20%;
     height: 70%;
     margin: 2vh;
     margin-left: 1.5vw;
+    background-color: #B1B1B1;
 }
 .groupText {
     text-align: start;
+}
+
+/* little banner and column config */
+#bannerColumnContainer {
+    width: 100vw;
+    display: flex;
+}
+#littleBannerContainer {
+    height: 200vh;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#columnContainer {
+    height: 191vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    margin-top: 4.6vh;
+}
+.littleBanner {
+    width: 70%;
+    height: 30%;
+    margin: 2%;
+    background-color: #FFF;
+}
+.columnCard {
+    width: 70%;
+    height: 15%;
+}
+.divisor {
+    width: 65%;
+    height: 0.1%;
+    margin: 1.9%;
+    border-radius: 10vh;
+    background-color: #353535;
+}
+.columnText {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+/*footer config*/
+.footer {
+    display: flex;
+    height: 45vh;
+    margin-top: 5vh;
+}
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footerText {
+    color: #C8AA69;
+    width: 30vw;
+    margin: 3vh;
+    text-align: center;
+}
+#footerLogo {
+    width: 15vw;
+    height: 10vh;
 }
